@@ -20,7 +20,7 @@ class Main extends PluginBase implements Listener{
         $this->saveDefaultConfig();
         $this->reloadConfig();
         $config = $this->getConfig();
-        $this->startingHeight = $config->get("starting-height");
+        $this->startingHeight = $config->get("height");
     }
     
     public function onVoidLoop(PlayerMoveEvent $event){
