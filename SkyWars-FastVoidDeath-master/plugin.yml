@@ -1,5 +1,5 @@
 name: FastVoidDeath
-main: SkyBlock\FastVoidDeath\Main
+main: SkyWars\FastVoidDeath\Main
 version: 1.0
 api:
 - 1.14.0
